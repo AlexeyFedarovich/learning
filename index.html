@@ -3,12 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/css/style.css">
   <title>Messenger</title>
 </head>
 <body>
   <div class="wrapper">
     <header class="header">
-      <img src="./images/msg_logo.png" alt="Messenger" class="logo">
+      <a href="" class="home">
+        <img src="./images/msg_logo.png" alt="Messenger" class="home__logo">
+      </a>
       <nav class="menu">
         <a href="" class="menu__item">Комнаты</a>
         <a href="" class="menu__item">Функции</a>
@@ -23,11 +26,11 @@
         <p class="info__text">С помощью Messenger вы можете легко общаться с близкими людьми.</p>
         <div class="login">
           <input type="email"  class="login__email" placeholder="Электронный адрес или номер телефона">
-          <input type="password"  class="login__email" placeholder="Пароль">
+          <input type="password"  class="login__password" placeholder="Пароль">
           <button class="login__button">Войти</button>
           <a href="" class="login__forgotpswd">Забыли пароль?</a>
           <input type="checkbox" class="login__save" id="save">
-          <label for="save" class="login_savetext">Оставаться в сети</label>
+          <label for="save" class="login__savetext">Оставаться в сети</label>
         </div>
         <div class="download">
           <a href="" class="download__link download__link_apple">
