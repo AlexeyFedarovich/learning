@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+.wrapper {
+  max-width: 1195px;
+  margin: 0 auto;
+  font-family: Helvetica, Arial, sans-serif; }
+
+.header {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.home__logo {
+  width: 40px;
+  height: 40px; }
+
+.menu {
+  font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-size: 17px; }
+  .menu__item {
+    position: relative;
+    text-decoration: none;
+    margin: 0 15px;
+    color: black;
+    font-weight: 500;
+    line-height: 50px; }
+    .menu__item:first-child {
+      margin-left: 0; }
+    .menu__item:last-child {
+      margin-right: 0; }
+    .menu__item:hover:after {
+      background-color: #0a7cff;
+      border-radius: 1.5px;
+      bottom: -6px;
+      content: '';
+      height: 3px;
+      left: 0;
+      position: absolute;
+      width: 100%; }
+
+/*# sourceMappingURL=style.css.map */
